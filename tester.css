@@ -1,0 +1,105 @@
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+  width:100px;
+}
+#dropdown{
+  
+}
+#dropdown button{
+  padding: 5px;
+  font-size: 35px;
+  color:#228B22;
+  border: none;
+  background-color: white;
+  width:100%;
+}
+.display-menu a{
+  display:none ;
+}
+#dropdown:hover .display-menu a{
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #228B22;
+  color:#228B22;
+  display: block;
+  padding:5px;
+}
+#header{
+  position:fixed;
+  height:120px;
+  width:91%;
+  top:0px;
+}
+.nav{
+  background-color: white;
+  padding:10px 0px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  margin-bottom: 80px;
+}
+#menu{
+  color: #228B22;
+  padding-top:60px;
+  padding-bottom: 50px;
+  padding-left:7px;
+}
+#menu font{
+  border:1px solid #228B22;
+  padding:10px;
+}
+
+font a{
+  color:#228B22;
+  text-decoration: none;
+}
+font a:active{
+  color:#228B22;
+  text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.section {
+      background-image: url('../restaurant_stuff/icy_stage.jpg');
+      background-size: cover;
+      height: 200px;
+      margin-top: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      border-radius: 10px;
+}
